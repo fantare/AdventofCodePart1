@@ -15,8 +15,7 @@ int main()
 
     int firstNum = -1, sum = 0;
     string num1, num2;
-    bool nextNum = true;
-
+  
     inFile.open("aocIn.txt");
     if (inFile.is_open()) {
         while (getline(inFile, line)) {
